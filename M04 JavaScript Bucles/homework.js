@@ -201,14 +201,14 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
-   var a = numero;
+   var a = num;
    var i = 0;
    do {
       i = i + 1;
       a = a + 5;
    } while(i < 8);
    return a;
-}doWhile(1)
+}doWhile(2)
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
