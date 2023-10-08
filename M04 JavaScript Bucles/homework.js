@@ -19,12 +19,12 @@ function mayoriaDeEdad(edad) {
    // Si tiene 18 años ó más debe retornar el string: "Allowed".
    // Caso contrario: "Not allowed".
    // Tu código:
-   if (edad>18) {
+   if (edad>=18) {
       return "Allowed";
-   }else {
-      return "Not Allowed";
+   } else {
+      return "Not allowed";
    }
-}mayoriaDeEdad(19)
+}mayoriaDeEdad(17)
 
 function conection(status) {
    // El argumento "status" representa el estado de conexión de un usuario.
@@ -50,13 +50,13 @@ function saludo(idioma) {
    // Si "idioma" no es ninguno de los anteriores o es `undefined` devuelve "Hola!".
    // Tu código:
    if (idioma === "aleman") {
-      return "Guten Tag";
+      return "Guten Tag!";
    } else if (idioma === "mandarin") {
-      return "Ni Hao";
-   } else if ( idioma === "Ingles") {
-      return "Hello";
+      return "Ni Hao!";
+   } else if ( idioma === "ingles") {
+      return "Hello!";
    } else {
-      return "Hola";
+      return "Hola!";
    }
 }saludo("aleman");
 
